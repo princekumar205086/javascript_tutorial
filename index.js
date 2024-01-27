@@ -14,3 +14,16 @@ hi.onclick = function(){
 // function greet(){
 //     text.innerHTML = 
 // }
+
+
+// spread operator
+
+let arr = [1,2,3,4];
+let arr2 = [...arr];
+console.log(arr);
+console.log(arr2);
+console.log(arr===arr2);
+console.log(typeof arr);
+console.log(typeof arr2);
+console.log(Array.isArray(arr));
+console.log(Array.isArray(arr2));
